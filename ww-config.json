@@ -10,7 +10,7 @@
           "en": "Edit date",
           "fr": "Edit date"
         },
-        "sections": ["date", "format", "customFormat"]
+        "sections": ["date", "format", "customFormat", "doc"]
       }
     },
     "settingsOptions": {
@@ -50,6 +50,16 @@
         "type": "Text",
         "options": {
           "placeholder": "Custom Format"
+        }
+      },
+      "doc": {
+        "type": "Button",
+        "label": null,
+        "options": {
+          "text": {
+            "en": "Date documentation"
+          },
+          "action": "goToDoc"
         }
       }
     }

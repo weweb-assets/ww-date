@@ -28,6 +28,15 @@ export default {
         : this.content.format;
     },
   },
+  methods: {
+    goToDoc() {
+      console.log("https://day.js.org/docs/en/display/format#docsNav");
+      window.open(
+        "https://day.js.org/docs/en/display/format#docsNav",
+        "_blank"
+      );
+    },
+  },
   mounted() {
     dayjs.extend(customParseFormat);
   },

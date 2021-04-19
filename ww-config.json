@@ -19,7 +19,8 @@
         "type": "Text",
         "options": {
           "placeholder": "Date to format"
-        }
+        },
+        "bindable": true
       },
       "format": {
         "label": {

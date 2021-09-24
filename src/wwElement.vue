@@ -12,12 +12,6 @@ export default {
     props: {
         content: { type: Object, required: true },
     },
-    wwDefaultContent: {
-        el: wwLib.element('ww-text'),
-        date: '2021-03-11T10:11:20.000+00:00',
-        format: 'DD/MM/YYYY',
-        customFormat: '',
-    },
     computed: {
         formatedDate() {
             return dayjs(this.content.date).format(this.formatToUse);

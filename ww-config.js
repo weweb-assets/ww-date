@@ -25,9 +25,7 @@ export default {
                 placeholder: 'Date to format',
             },
             bindable: true,
-            defaultValue: {
-                en: '2021-03-11T10:11:20.000+00:00',
-            },
+            defaultValue: '2021-03-11T10:11:20.000+00:00',
         },
         format: {
             label: {

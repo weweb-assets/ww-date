@@ -16,7 +16,7 @@ export default {
     properties: {
         el: {
             hidden: true,
-            defaultValue: wwLib.element('ww-text'),
+            defaultValue: { isWwObject: true, type: 'ww-text' },
         },
         date: {
             label: { en: 'Date', fr: 'Date' },

@@ -13,6 +13,9 @@ export default {
             },
         },
         icon: 'fontawesome/solid/calendar-day',
+        bubble: {
+            icon: 'fontawesome/solid/calendar-day',
+        },
     },
     properties: {
         el: {

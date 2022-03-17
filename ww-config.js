@@ -12,6 +12,10 @@ export default {
                 sections: ['date', 'format', 'customFormat', 'doc'],
             },
         },
+        icon: 'fontawesome/solid/calendar-day',
+        bubble: {
+            icon: 'fontawesome/solid/calendar-day',
+        },
     },
     properties: {
         el: {
@@ -56,7 +60,7 @@ export default {
             label: { en: 'Custom Format', fr: 'Custom Format' },
             type: 'Text',
             options: {
-                placeholder: 'Custom Format',
+                placeholder: 'MMMM D, YYYY h:mm A',
             },
             defaultValue: '',
         },

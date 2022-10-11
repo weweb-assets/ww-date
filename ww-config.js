@@ -30,6 +30,12 @@ export default {
             },
             bindable: true,
             defaultValue: '2021-03-11T10:11:20.000+00:00',
+            /* wwEditor:start */
+            bindingValidation: {
+                type: 'string',
+                tooltip: 'A string ISO date: `"2021-03-11T10:11:20.000+00:00"`',
+            },
+            /* wwEditor:end */
         },
         format: {
             label: {

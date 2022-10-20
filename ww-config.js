@@ -12,9 +12,9 @@ export default {
                 sections: ['date', 'format', 'customFormat', 'doc'],
             },
         },
-        icon: 'fontawesome/solid/calendar-day',
+        icon: 'calendar',
         bubble: {
-            icon: 'fontawesome/solid/calendar-day',
+            icon: 'calendar',
         },
     },
     properties: {

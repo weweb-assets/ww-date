@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 
 export default {

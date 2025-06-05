@@ -6,7 +6,7 @@
 
 <script>
 import dayjs from 'dayjs';
-const customParseFormat = require('dayjs/plugin/customParseFormat');
+import customParseFormat from 'dayjs/plugin/customParseFormat';
 
 export default {
     props: {

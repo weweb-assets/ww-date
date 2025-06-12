@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import * as dayjs from 'dayjs';
-const customParseFormat = require('dayjs/plugin/customParseFormat');
+import dayjs from 'dayjs';
+import customParseFormat from 'dayjs/plugin/customParseFormat';
 
 export default {
     props: {
